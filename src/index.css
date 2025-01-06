@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Regular";
+  src: local("Poppins-Regular"), url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Medium";
+  src: local("Poppins-Medium"), url("./fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "bold";
+  src: local("Poppins-Bold"), url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "PixelifySans-bold";
+  src: local("PixelifySans-Bold"), url("./fonts/Pixelify_Sans/PixelifySans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Filano";
+  src: local("filano"), url("./fonts/Filano/filano.ttf");
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme('colors.gray.400');
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.gray.200');
+    border-radius: theme('borderRadius.lg');
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.gray.400');
+  }
+}
+
+
+/* style navbar */
+
+.bg-navbar-light {
+  background: linear-gradient(90deg, rgba(140,37,191,1) 3%, rgba(149,47,193,1) 21%, rgba(174,78,179,1) 38%, rgba(189,93,213,1) 100%);
+}
