@@ -2,7 +2,7 @@ import { faEnvelope, faInbox, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profile from "../../assets/rin tohsaka.jpg";
 import OnDark from "../hooks/darkMode/onDark";
-import useDarkMode from "../hooks/darkMode/darkmode";
+import useDarkMode from "../hooks/darkMode/darkMode";
 
 {/* Navbar */}
 
